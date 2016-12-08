@@ -1,0 +1,2 @@
+class MysqlCsvSetting
+end

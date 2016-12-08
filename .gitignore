@@ -27,3 +27,4 @@ vendor/bundle
 
 /config/aws.yml
 /config/database.yml
+/path/*
