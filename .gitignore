@@ -25,3 +25,5 @@ vendor/bundle
 /lib/*
 /.idea/*
 
+/config/aws.yml
+/config/database.yml
