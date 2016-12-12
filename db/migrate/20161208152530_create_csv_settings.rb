@@ -2,7 +2,7 @@ class CreateCsvSettings < ActiveRecord::Migration[5.0]
   def up
     unless exists? 'csv_settings'
       table = dynamo_db.tables.create('csv_settings',
-                                      1, 1, :hash_key => { :csv_settind_id => :number })
+                                      1, 1, :hash_key => { :csv_setting_id => :number })
       while table.status == :creating
         puts "Waiting for table create to complete.."
         sleep 2

@@ -4,6 +4,9 @@ class CsvSetting
   table name: :csv_settings, key: :id
 
   field :name, :string
-  field :setting_id, :integer
+  field :csv_setting_id, :integer
+  field :yahoo_setting_id, :integer
+  field :yahoo_store_name, :string
+  field :rakuten_setting, :string
   field :timestamps, :datetime
 end
