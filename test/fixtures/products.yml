@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  item_id: 1
+  estimate_sale_start: 2016-12-19
+
+two:
+  item_id: 1
+  estimate_sale_start: 2016-12-19
