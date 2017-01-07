@@ -8,5 +8,6 @@ class CsvSetting
   field :yahoo_setting_id, :integer
   field :yahoo_store_name, :string
   field :rakuten_setting, :string
-  field :timestamps, :datetime
+  field :created_at, :datetime, {default: ->(){Time.now}}
+  field :updated_at, :datetime, {default: ->(){Time.now}}
 end
